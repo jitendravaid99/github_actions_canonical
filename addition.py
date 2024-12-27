@@ -1,7 +1,7 @@
-def addition(x,y):
+def add(x,y):
   return x+y
 
 def test_addition():
-  assert addition(1,2) == 3
-  assert addition(1,-1) == 0
+  assert add(1,2) == 3
+  assert add(1,-1) == 0
   
